@@ -25,10 +25,10 @@ class LoginController extends Controller
 
         if (Auth::attempt($credential)) {
             $request->session()->regenerate();
-            
+    
             // Periksa peran pengguna setelah berhasil login
             if (auth()->user()->is_admin == 1) {
-                return redirect()->route('reader');
+                return redirect('/'); // Mengarahkan pengguna admin ke halaman home
             } else {
                 return redirect()->intended('/dashboard');
             }
