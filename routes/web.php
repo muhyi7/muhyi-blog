@@ -30,7 +30,8 @@ use App\Http\Controllers\ReaderController;
 Route::get('/', function() {
     return view('home', [
         "title" => 'Home',
-        "active" => 'Home'
+        "active" => 'Home',
+        "image" => 'anonymous.jpg',
     ]);
 });
 Route::get('/about', function () {

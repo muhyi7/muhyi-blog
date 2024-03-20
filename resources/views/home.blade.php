@@ -19,7 +19,7 @@
         <div class="row mt-5">
             <div class="col-md-4">
                 <div class="card">
-                    <img src="project1.jpg" class="card-img-top" alt="Project 1">
+                    <img src="img/{{ $image }}" class="card-img-top" alt="Project 1">
                     <div class="card-body">
                         <h5 class="card-title">KampusKu</h5>
                         <p class="card-text">Merupakan Aplikasi yang menyediakan kemudahan untuk pendataan mahasiswa dikampus</p>
@@ -29,7 +29,7 @@
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <img src="project2.jpg" class="card-img-top" alt="Project 2">
+                    <img src="img/{{ $image }}" class="card-img-top" alt="Project 2">
                     <div class="card-body">
                         <h5 class="card-title">Project 2</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tristique aliquam lectus, id laoreet quam sodales et.</p>
@@ -39,7 +39,7 @@
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <img src="project3.jpg" class="card-img-top" alt="Project 3">
+                    <img src="img/{{ $image }}" class="card-img-top" alt="Project 3">
                     <div class="card-body">
                         <h5 class="card-title">Project 3</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tristique aliquam lectus, id laoreet quam sodales et.</p>
